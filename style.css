@@ -8,3 +8,15 @@ body {
 h1 {
   /* font-weight: bold; */
 }
+.days {
+  text-transform: uppercase;
+}
+.period {
+  text-transform: uppercase;
+  text-decoration: underline;
+  display: flexbox;
+}
+.recipeTitle {
+  display: flexbox;
+  text-transform: lowercase;
+}
