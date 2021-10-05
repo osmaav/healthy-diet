@@ -1,27 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  background-color: rgba(116, 134, 192, 0.664);
+  background-color: #887788;
   font: normal 16px 'Roboto', sans-serif;
+  max-width: 800px;
+  box-shadow: 5px 3px 10px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.header {
+  align-self: center;
+  display: block;
+  margin: 0;
+}
+
+.box-model > div {
+  box-sizing: border-box;
+  float: left;
+  margin: 3px;
+  background-color: aqua;
+  width: 15%;
+  display: none;
 }
 
 .container {
-  /* display: block; */
-  /* margin: 0; */
+  width: 20%;
+  background-color: rgba(112, 63, 158, 0.699);
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 7px;
+  padding: 5px;
 }
 .days {
+  margin: 0px;
+  padding: 5px;
+  /* border-style: double; */
+  border-radius: 0.5rem;
   text-transform: uppercase;
+  /* background-color: rgb(90, 118, 207); */
 }
 .period {
+  margin: 0px;
   text-transform: uppercase;
   text-decoration: underline;
 }
 .recipeTitle {
+  margin: 0px;
   text-transform: lowercase;
+}
+
+h1 {
+  box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0px;
 }
 
 h4 {
   margin-bottom: 0;
+  margin-top: 10px;
+  margin: 0px;
 }
+
 p {
   margin: 0;
 }
