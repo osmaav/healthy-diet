@@ -3,10 +3,10 @@ body {
   background-color: rgba(116, 134, 192, 0.664);
   font: normal 16px 'Roboto', sans-serif;
 }
-* {
-}
-h1 {
-  /* font-weight: bold; */
+
+.container {
+  /* display: block; */
+  /* margin: 0; */
 }
 .days {
   text-transform: uppercase;
@@ -14,9 +14,14 @@ h1 {
 .period {
   text-transform: uppercase;
   text-decoration: underline;
-  display: flexbox;
 }
 .recipeTitle {
-  display: flexbox;
   text-transform: lowercase;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
 }
